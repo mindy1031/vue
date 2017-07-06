@@ -1,0 +1,43 @@
+body,html{
+	width:100%;
+	background:#efeff4;
+}
+.main{
+	padding:.8rem 0 1rem;
+}
+header{
+	height:.8rem;
+	width:100%;
+	position: fixed;
+	top:0;
+	left:0;
+	background:#f00;
+	display:flex;
+	color:#fff;
+	align-items:center;
+	z-index: 20;
+}
+header.header_three{
+	justify-content:space-between;
+}
+header.header-two{
+	justify-content: flex-start;
+}
+header img{
+	margin:0 .28rem;
+	width:.4rem;
+	height:.4rem;
+	display:block;
+}
+header h2{
+	font-size:.3rem;
+}
+.mint-swipe-items-wrap{
+	height:3.4rem;
+	overflow:hidden;
+}
+
+header.header-two .h2{
+	margin-left:1.7rem;
+	font:.3rem/.8rem "微软雅黑";
+}
